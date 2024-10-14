@@ -1,39 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Página-1" id="ZPdm0QS4wIrC8lTsnpqV">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Administrator Access Module" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="643" y="16" width="210" height="119" as="geometry" />
+        <mxCell id="LR2xP-OKnex5PtS0rwBc-9" value="&lt;h1&gt;Bomberazos&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="950" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="User Access Module" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="8" y="8" width="494" height="134" as="geometry" />
+        <mxCell id="2" value="Administrator Access Module" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="785" y="298" width="210" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="33" y="51" width="93" height="49" as="geometry" />
+        <mxCell id="3" value="User Access Module" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="150" y="290" width="494" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Access Module" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="313" y="51" width="164" height="49" as="geometry" />
+        <mxCell id="4" value="User" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="175" y="333" width="93" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Administrator" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="668" y="51" width="160" height="49" as="geometry" />
+        <mxCell id="5" value="Access Module" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="455" y="333" width="164" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Access" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.34;entryX=0;entryY=0.29;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="6" value="Administrator" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="810" y="333" width="160" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Access" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.34;entryX=0;entryY=0.29;" parent="1" source="4" target="5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="219" y="54" />
+              <mxPoint x="361" y="336" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8" value="Show Notifications" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=1;entryY=0.63;" edge="1" parent="1" source="5" target="4">
+        <mxCell id="8" value="Show Notifications" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=1;entryY=0.63;" parent="1" source="5" target="4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="219" y="97" />
+              <mxPoint x="361" y="379" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9" value="Deny Access" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="9" value="Deny Access" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" parent="1" source="5" target="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
