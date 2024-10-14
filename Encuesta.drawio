@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="H5b5ErLn7tCqU0zu_uCh">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Module" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28.4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="126" y="8" width="206" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="+ accessPermissions: Array" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+          <mxGeometry y="28" width="206" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="4" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2">
+          <mxGeometry y="57" width="206" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="+surveyFunctionality()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+          <mxGeometry y="65" width="206" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="+takePhotos()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+          <mxGeometry y="93" width="206" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="+saveSurveyInDatabase()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+          <mxGeometry y="122" width="206" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="MobileView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28.4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="8" y="227" width="251" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="- userAccessOnly: Boolean = true" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8">
+          <mxGeometry y="28" width="251" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8">
+          <mxGeometry y="57" width="251" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="+surveyFunctionality()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8">
+          <mxGeometry y="65" width="251" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="+takePhotos()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8">
+          <mxGeometry y="93" width="251" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="+saveSurveyInDatabase()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8">
+          <mxGeometry y="122" width="251" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Users" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26.444444444444443;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="446" width="128" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="15" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="14">
+          <mxGeometry y="40" width="128" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="+accessSurvey()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
+          <mxGeometry y="48" width="128" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="+takePhotos()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
+          <mxGeometry y="74" width="128" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="+saveSurvey()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
+          <mxGeometry y="101" width="128" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Administrators" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="421" y="43" width="128" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="19">
+          <mxGeometry y="44" width="128" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="+accessSurvey()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="19">
+          <mxGeometry y="52" width="128" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="xModule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="446" y="273" width="78" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="23" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="22">
+          <mxGeometry y="38" width="78" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="has" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.18;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="133" y="193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="has" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.02;entryY=0;" edge="1" parent="1" source="8" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="133" y="412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="accesses" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.82;exitY=1;entryX=0.98;entryY=0;" edge="1" parent="1" source="2" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="193" />
+              <mxPoint x="325" y="412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="does not access" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=0.99;entryX=0.51;entryY=0;" edge="1" parent="1" source="19" target="22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
