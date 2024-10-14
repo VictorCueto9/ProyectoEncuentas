@@ -1,86 +1,113 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Página-1" id="o_wEAVr2ujUH5b_0rQYD">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="8" y="256" width="96" height="49" as="geometry" />
+        <mxCell id="yBcGVsT8jSsLig0ngYx9-28" value="&lt;h1&gt;Capacitación&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="118" y="70" width="882" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Administrator?" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="154" y="256" width="135" height="49" as="geometry" />
+        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="388" width="96" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Upload content" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="368" y="101" width="160" height="160" as="geometry" />
+        <mxCell id="3" value="Administrator?" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="276" y="388" width="135" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Upload video" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="641" y="8" width="154" height="49" as="geometry" />
+        <mxCell id="4" value="Upload content" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="490" y="233" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Upload PDF" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="647" y="107" width="142" height="49" as="geometry" />
+        <mxCell id="5" value="Upload video" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="763" y="140" width="154" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Upload image" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="639" y="206" width="158" height="49" as="geometry" />
+        <mxCell id="6" value="Upload PDF" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="769" y="239" width="142" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Add text content" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="626" y="305" width="183" height="49" as="geometry" />
+        <mxCell id="7" value="Upload image" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="761" y="338" width="158" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Non-Administrator" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="367" y="404" width="162" height="49" as="geometry" />
+        <mxCell id="8" value="Add text content" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="748" y="437" width="183" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Read content" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="655" y="404" width="126" height="49" as="geometry" />
+        <mxCell id="9" value="Non-Administrator" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="489" y="536" width="162" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="10" value="Read content" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="777" y="536" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" parent="1" source="2" target="3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="12" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=-0.01;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="12" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=-0.01;entryX=0;entryY=0.5;" parent="1" source="3" target="4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="328" y="181" />
+              <mxPoint x="450" y="313" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="13" value="Video" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="13" value="Video" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=0;entryX=0;entryY=0.5;" parent="1" source="4" target="5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="578" y="33" />
+              <mxPoint x="700" y="165" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="14" value="PDF" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.31;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="6">
+        <mxCell id="14" value="PDF" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.31;entryX=0;entryY=0.5;" parent="1" source="4" target="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="578" y="132" />
+              <mxPoint x="700" y="264" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="15" value="Image" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.69;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="7">
+        <mxCell id="15" value="Image" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.69;entryX=0;entryY=0.5;" parent="1" source="4" target="7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="578" y="231" />
+              <mxPoint x="700" y="363" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="16" value="Text" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="8">
+        <mxCell id="16" value="Text" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=1;entryX=0;entryY=0.5;" parent="1" source="4" target="8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="578" y="330" />
+              <mxPoint x="700" y="462" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="17" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0.99;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="9">
+        <mxCell id="17" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0.99;entryX=0;entryY=0.5;" parent="1" source="3" target="9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="328" y="429" />
+              <mxPoint x="450" y="561" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="9" target="10">
+        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="9" target="10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBcGVsT8jSsLig0ngYx9-18" value="Take quiz" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="777" y="610" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="yBcGVsT8jSsLig0ngYx9-19" value="Watch grades" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="777" y="690" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="yBcGVsT8jSsLig0ngYx9-23" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9" target="yBcGVsT8jSsLig0ngYx9-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="710" as="sourcePoint" />
+            <mxPoint x="670" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBcGVsT8jSsLig0ngYx9-27" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="yBcGVsT8jSsLig0ngYx9-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="656" />
+            </Array>
+            <mxPoint x="650" y="560" as="sourcePoint" />
+            <mxPoint x="777" y="656" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
